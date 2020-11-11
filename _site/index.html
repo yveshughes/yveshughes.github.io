@@ -9,7 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="yves" />
 
+<meta name="date" content="2020-11-10" />
 
 <title>YvesHughes.com</title>
 
@@ -244,6 +246,92 @@ $(document).ready(function () {
 }
 </style>
 
+<style>
+  .jumbotron {
+  background-image: url("boatyves.jpg");
+  background-size: cover;
+}
+  
+  /* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+</style>
 <!-- code folding -->
 
 
@@ -253,62 +341,57 @@ $(document).ready(function () {
 
 <body>
 
-
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">YvesHughes.com</a>
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#">About</a></li>
+          <li role="presentation"><a href="#">Case Study 1</a></li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">DS6306 Doing Data Science</h3>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+    <div class="jumbotron">
+      <h1>Aloha!</h1>
+      <p class="lead">My name is Yves and I love building things that make a positive impact in people’s lives.</p>
+      
+      <p><a class="btn btn-lg btn-success" href="#" role="button">Check out Case Study 1</a></p>
+    </div>
 
+    <div class="row marketing">
+      <div class="col-lg-6">
+        <h4>Where I live</h4>
+        <p>I live in Texas but have lived in Hawaii, California, and Illinois.</p>
 
+        <h4>Formal Education</h4>
+        <p>My fist degree was a BFA in Web Design from the Illinois Institute of Art and my MBA was in Technology Management from the University of Phoenix.</p>
 
-<h1 class="title toc-ignore">YvesHughes.com</h1>
+        <h4>What I do</h4>
+        <p>During the day you’ll catch me at Salesforce as Product Manager. In the evenings— well…. I’m Batman.</p>
+      </div>
 
-</div>
+      <div class="col-lg-6">
+        <h4>What I eat</h4>
+        <p>I'm currently on the KETO diet but I eat a pint of ice cream every day.</p>
 
+        <h4>What I'm most proudest of</h4>
+        <p>Right now I'm proudest of my 4 kiddos who have overcome much adversity</p>
 
-<div id="header-1" class="section level1">
-<h1>Header 1</h1>
-<div id="header-2" class="section level2">
-<h2>Header 2</h2>
-<div id="header-3" class="section level3">
-<h3>Header 3</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie vehicula nisl, vitae ullamcorper nulla dictum vitae. Curabitur ut faucibus odio. Donec vel magna congue, tristique nunc ut, fermentum nisl. Sed vitae eros eros. Vivamus eget nibh justo. Praesent non mattis nisi, in consectetur mauris. Mauris fermentum, orci a mollis varius, odio sem semper nisi, id suscipit magna massa vel sem. Quisque tellus enim, venenatis ut consequat non, convallis ut lectus. Integer et dignissim metus, ac mollis ante. Maecenas nec velit iaculis, convallis ipsum sit amet, fermentum sem. Nullam maximus dolor vitae nisi vestibulum viverra. Nulla a felis tincidunt, vestibulum enim non, fermentum quam. Praesent et molestie eros, id lobortis tellus. Pellentesque lectus lorem, fringilla vitae semper vitae, dignissim in felis. Praesent ultricies libero at purus auctor semper. Duis ut semper ligula, et cursus mi.</p>
-</div>
-</div>
-</div>
+        <h4>My favorite movies</h4>
+        <p>I liked Training Day, Edge of Tomorrow, Ready Player One, Malcolm X</p>
+      </div>
+    </div>
 
 
 
+    <footer class="footer">
+      <p>&copy; 2020 Yves Hughes, LLC.</p>
+    </footer>
 
-</div>
+  </div> <!-- /container -->
+
+
 
 <script>
 

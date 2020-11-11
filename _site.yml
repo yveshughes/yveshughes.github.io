@@ -2,7 +2,7 @@ name: "my-website"
 navbar:
     title: "YvesHughes.com"
     left:
-     -  text: "Home"
-        href: index.html
      -  text: "About"
-        href: about.html 
+        href: index.html
+     -  text: "Case Study 1"
+        href: beer.html 

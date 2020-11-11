@@ -5,8 +5,11 @@ author: yves
 date: 11/10/2020
 ---
 
-# Header 1
-## Header 2
-### Header 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie vehicula nisl, vitae ullamcorper nulla dictum vitae. Curabitur ut faucibus odio. Donec vel magna congue, tristique nunc ut, fermentum nisl. Sed vitae eros eros. Vivamus eget nibh justo. Praesent non mattis nisi, in consectetur mauris. Mauris fermentum, orci a mollis varius, odio sem semper nisi, id suscipit magna massa vel sem. Quisque tellus enim, venenatis ut consequat non, convallis ut lectus. Integer et dignissim metus, ac mollis ante. Maecenas nec velit iaculis, convallis ipsum sit amet, fermentum sem. Nullam maximus dolor vitae nisi vestibulum viverra. Nulla a felis tincidunt, vestibulum enim non, fermentum quam. Praesent et molestie eros, id lobortis tellus. Pellentesque lectus lorem, fringilla vitae semper vitae, dignissim in felis. Praesent ultricies libero at purus auctor semper. Duis ut semper ligula, et cursus mi.
+# Aloha!
+My name is Yves and I love building things that make a positive impact in people's lives.
 
+I live in Texas but have lived in Hawaii, California, and Illinois.
+
+My fist degree was a BFA in Web Design from the Illinois Institute of Art and my MBA was in Technology Management from the University of Phoenix.
+
+During the day you'll catch me at Salesforce as Product Manager. In the evenings--- well.... I'm Batman.
