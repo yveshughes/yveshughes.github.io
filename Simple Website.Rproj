@@ -13,4 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
-WebsitePath: _site
+WebsitePath: ~/Documents/GitHub/MSDS_6306_Doing-Data-Science/Unit 12/GithubWebsite/Simple Website
